@@ -1,3 +1,5 @@
+const sidebar = require('./siderbar.js');
+
 module.exports = {
   title: '小霸王',
   description: 'LEARNING MACHINE',
@@ -16,6 +18,23 @@ module.exports = {
       {
         name: 'viewport',
         content: 'width=device-width,initial-scale=1,user-scalable=no'
+      }
+    ],
+    [
+      'script',
+      {
+        language: 'javascript',
+        type: 'text/javascript',
+        src: 'https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js'
+      }
+    ],
+    // 引入鼠标点击脚本
+    [
+      'script',
+      {
+        language: 'javascript',
+        type: 'text/javascript',
+        src: '/js/mouse-click-animate.js'
       }
     ]
   ],
@@ -46,9 +65,7 @@ module.exports = {
         ]
       }
     ],
-    sidebar: {
-      '/docs/theme-reco/': ['', 'theme', 'plugin', 'api']
-    },
+    sidebar,
     type: 'blog',
     blogConfig: {
       category: {
@@ -80,5 +97,28 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true
-  }
+  },
+  plugins: [
+    ['@vuepress-reco/vuepress-plugin-comments'],
+    ['vuepress-plugin-boxx'],
+    [
+      'vuepress-plugin-nuggets-style-copy',
+      {
+        copyText: '复制代码',
+        tip: {
+          content: '复制成功!'
+        }
+      }
+    ],
+    [
+      '@vuepress/pwa',
+      {
+        serviceWorker: true,
+        updatePopup: {
+          message: '发现新内容可用',
+          buttonText: '刷新'
+        }
+      }
+    ]
+  ]
 };

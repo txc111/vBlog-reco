@@ -7,7 +7,7 @@ const CSS_PATH = '/blogs/css';
 module.exports = {
   [JAVASCRIPT_PATH]: [
     generateSideBarConfig('JS-基础', JAVASCRIPT_PATH + '/js-base'),
-    generateSideBarConfig('JS-基础', JAVASCRIPT_PATH + '/js-typescript')
+    generateSideBarConfig('JS-TS', JAVASCRIPT_PATH + '/js-typescript')
   ],
   [PERFORM_PATH]: [generateSideBarConfig('前端性能相关', PERFORM_PATH)],
   [CSS_PATH]: [generateSideBarConfig('CSS 技巧', CSS_PATH)]

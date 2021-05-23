@@ -2,6 +2,7 @@ module.exports = {
   title: '小霸王',
   description: 'LEARNING MACHINE',
   dest: 'public',
+  base: '/',
   head: [
     [
       'link',
@@ -20,9 +21,11 @@ module.exports = {
   ],
   theme: 'reco',
   themeConfig: {
+    mode: 'light',
+    subSidebar: 'auto',
     nav: [
       {
-        text: '首页',
+        text: '主页',
         link: '/',
         icon: 'reco-home'
       },
@@ -30,16 +33,6 @@ module.exports = {
         text: '时间线',
         link: '/timeline/',
         icon: 'reco-date'
-      },
-      {
-        text: 'Docs',
-        icon: 'reco-message',
-        items: [
-          {
-            text: 'vuepress-reco',
-            link: '/docs/theme-reco/'
-          }
-        ]
       },
       {
         text: 'Contact',
@@ -60,11 +53,11 @@ module.exports = {
     blogConfig: {
       category: {
         location: 2,
-        text: 'Category'
+        text: '目录索引'
       },
       tag: {
         location: 3,
-        text: 'Tag'
+        text: '标签索引'
       }
     },
     friendLink: [

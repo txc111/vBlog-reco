@@ -11,9 +11,11 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git config user.name hitler617
-git config user.email 1131367992@qq.com
+git config user.name --g hitler617
+git config user.email --g 1131367992@qq.com
 git remote add git@github.com:hitler617/vBlog-reco.git
 git push -f git@github.com:hitler617/vBlog-reco.git master:gh-pages
 
+git config user.name --g --unset
+git config user.email --g --unset
 cd -

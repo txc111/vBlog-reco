@@ -2,9 +2,9 @@
 title: Typescript 不熟悉的点和易错点
 date: 2019-04-11
 categories:
-  - TypeScript
+  - JavaScript
 tags:
-  - TypeScript
+  - JavaScript
 sidebar: 'auto'
 ---
 
@@ -80,7 +80,7 @@ interface Person {
 let jay: Person = {
   name: 'Tom',
   gender: 'male',
-  age: 25 // ❌ - 可选属性 age 的值 也要符合 任意属性的类型 , 这里必须为string , 所以一般任意属性的类型设为 any 比较合适 .
+  age: 25, // ❌ - 可选属性 age 的值 也要符合 任意属性的类型 , 这里必须为string , 所以一般任意属性的类型设为 any 比较合适 .
 };
 
 jay.id = 666; // 不能被二次赋值❌
@@ -99,7 +99,7 @@ enum Days {
   Wed,
   Thu,
   Fri,
-  Sat
+  Sat,
 }
 console.log(Days['Sun']); // 0
 console.log(Days[0]); // 'Sun'
@@ -111,7 +111,7 @@ enum Days {
   Wed,
   Thu,
   Fri,
-  Sat
+  Sat,
 }
 console.log(Days['Sun']); // 7
 ```

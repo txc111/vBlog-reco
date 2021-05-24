@@ -1,10 +1,10 @@
 ---
-title: 小技巧收集-谷歌与Airbnb的代码风格
+title: 谷歌与Airbnb的代码风格
 date: 2019-04-12
 categories:
-  - guide
+  - Others
 tags:
-  - guide
+  - 代码规范
 sidebar: 'auto'
 sidebarDepth: 2
 ---
@@ -89,7 +89,7 @@ const atom = {
 
   addValue: function(value) {
     return atom.value + value;
-  }
+  },
 };
 
 // good
@@ -98,7 +98,7 @@ const atom = {
 
   addValue(value) {
     return atom.value + value;
-  }
+  },
 };
 ```
 
@@ -133,7 +133,7 @@ const { a, ...noA } = copy; // noA => { b: 2, c: 3 }
 
 ```js
 // good
-[1, 2, 3].map(x => x * x);
+[1, 2, 3].map((x) => x * x);
 
 // good
 [1, 2, 3].reduce((total, n) => {
@@ -186,7 +186,7 @@ sum === 15;
 
 // good
 let sum = 0;
-numbers.forEach(num => (sum += num));
+numbers.forEach((num) => (sum += num));
 sum === 15;
 
 // best (use the functional force)

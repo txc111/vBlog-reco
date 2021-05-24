@@ -3,21 +3,19 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-# 生成静态文件
 npm run build
 
-# 进入生成的文件夹
-# cd public
+cd dist
 
-# git init
-git add .
+git init
+git add -A
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io  填写你刚刚创建的仓库地址
-# git remote add origin https://github.com/sanyuan0704/my_blog.git
+git config --global user.name hitler617
+git config --global user.email 1131367992@qq.com
+git remote add git@github.com:hitler617/vBlog-reco.git
+git push -f git@github.com:hitler617/vBlog-reco.git master:gh-pages
 
-git push -f origin  master:master
-
-cd ..
-
-tcb hosting:deploy public -e blog-9g8lgnuke4603ff9
+git config --global --unset user.name
+git config --global --unset user.email
+cd -

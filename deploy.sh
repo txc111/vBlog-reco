@@ -14,6 +14,7 @@ git commit -m 'deploy'
 git config user.name --g hitler617
 git config user.email --g 1131367992@qq.com
 git push -f https://github.com/hitler617/vBlog-reco.git master:gh-pages
-
+git config user.name --g --unset
+git config user.email --g --unset
 cd ../
 rm -rf ./dist

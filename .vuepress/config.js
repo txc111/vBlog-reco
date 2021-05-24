@@ -4,7 +4,7 @@ module.exports = {
   title: '小霸王',
   description: 'LEARNING MACHINE',
   dest: 'dist',
-  base: '/',
+  base: '/vBlog-reco',
   head: [
     [
       'link',

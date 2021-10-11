@@ -3,30 +3,22 @@ const sidebar = require('./siderbar.js');
 module.exports = {
   title: '小霸王',
   description: 'LEARNING MACHINE',
-  dest: 'public',
-  base: '/',
+  dest: 'dist',
+  base: '/vBlog-reco',
   head: [
     [
       'link',
       {
         rel: 'icon',
-        href: '/favicon.ico'
-      }
+        href: '/favicon.ico',
+      },
     ],
     [
       'meta',
       {
         name: 'viewport',
-        content: 'width=device-width,initial-scale=1,user-scalable=no'
-      }
-    ],
-    [
-      'script',
-      {
-        language: 'javascript',
-        type: 'text/javascript',
-        src: 'https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js'
-      }
+        content: 'width=device-width,initial-scale=1,user-scalable=no',
+      },
     ],
     // 引入鼠标点击脚本
     [
@@ -34,9 +26,9 @@ module.exports = {
       {
         language: 'javascript',
         type: 'text/javascript',
-        src: '/js/mouse-click-animate.js'
-      }
-    ]
+        src: '/js/mouse-click-animate.js',
+      },
+    ],
   ],
   theme: 'reco',
   themeConfig: {
@@ -46,12 +38,12 @@ module.exports = {
       {
         text: '主页',
         link: '/',
-        icon: 'reco-home'
+        icon: 'reco-home',
       },
       {
         text: '时间线',
         link: '/timeline/',
-        icon: 'reco-date'
+        icon: 'reco-date',
       },
       {
         text: 'Contact',
@@ -60,22 +52,22 @@ module.exports = {
           {
             text: 'GitHub',
             link: 'https://github.com/hitler617',
-            icon: 'reco-github'
-          }
-        ]
-      }
+            icon: 'reco-github',
+          },
+        ],
+      },
     ],
     sidebar,
     type: 'blog',
     blogConfig: {
       category: {
         location: 2,
-        text: '目录索引'
+        text: '目录索引',
       },
       tag: {
         location: 3,
-        text: '标签索引'
-      }
+        text: '标签索引',
+      },
     },
     friendLink: [
       {
@@ -83,8 +75,8 @@ module.exports = {
         desc: 'A simple and beautiful vuepress Blog & Doc theme.',
         avatar:
           'https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png',
-        link: 'https://vuepress-theme-reco.recoluan.com'
-      }
+        link: 'https://vuepress-theme-reco.recoluan.com',
+      },
     ],
     logo: '/avatar.png',
     search: true,
@@ -93,10 +85,10 @@ module.exports = {
     author: 'scottt',
     authorAvatar: '/avatar.png',
     record: 'xc_111',
-    startYear: '2019'
+    startYear: '2019',
   },
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
   },
   plugins: [
     ['@vuepress-reco/vuepress-plugin-comments'],
@@ -106,9 +98,9 @@ module.exports = {
       {
         copyText: '复制代码',
         tip: {
-          content: '复制成功!'
-        }
-      }
+          content: '复制成功!',
+        },
+      },
     ],
     [
       '@vuepress/pwa',
@@ -116,9 +108,9 @@ module.exports = {
         serviceWorker: true,
         updatePopup: {
           message: '发现新内容可用',
-          buttonText: '刷新'
-        }
-      }
-    ]
-  ]
+          buttonText: '刷新',
+        },
+      },
+    ],
+  ],
 };

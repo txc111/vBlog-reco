@@ -1,7 +1,7 @@
 {
   "name": "xc",
   "version": "1.0.0",
-  "author": "reco_luan",
+  "author": "scottt",
   "description": "LEARNING MACHINE",
   "scripts": {
     "dev": "vuepress dev . --host \"localhost\"",

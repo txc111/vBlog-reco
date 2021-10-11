@@ -7,17 +7,22 @@ set -e
 npm run build
 
 # 进入生成的文件夹
-# cd public
+cd public
 
-# git init
-git add .
+# 如果是发布到自定义域名
+# echo 'www.example.com' > CNAME
+
+git init
+git add -A
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io  填写你刚刚创建的仓库地址
-# git remote add origin https://github.com/sanyuan0704/my_blog.git
+# 如果发布到 https://<USERNAME>.github.io
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
-git push -f origin  master:master
+# 如果发布到 https://<USERNAME>.github.io/<REPO>
+# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
-cd ..
+# 把上面的 <USERNAME> 换成你自己的 Github 用户名，<REPO> 换成仓库名，比如我这里就是：
+git push -f git@github.com:hitler617/vBlog-reco.git master:gh-pages
 
-tcb hosting:deploy public -e blog-9g8lgnuke4603ff9
+cd -

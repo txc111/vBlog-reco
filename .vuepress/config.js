@@ -3,8 +3,8 @@ const sidebar = require('./siderbar.js');
 module.exports = {
   title: '小霸王',
   description: 'LEARNING MACHINE',
-  dest: 'dist',
-  base: '/vBlog-reco',
+  dest: 'public',
+  base: '/',
   head: [
     [
       'link',

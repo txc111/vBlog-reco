@@ -27,7 +27,7 @@ self.addEventListener('message', (event) => {
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "2947ae7440bdcc1da01331ec9041c0d0"
+    "revision": "e2eb6768b7f83efb71e60ddeb5c44ddc"
   },
   {
     "url": "assets/css/0.styles.146ab50a.css",
@@ -46,12 +46,12 @@ self.__precacheManifest = [
     "revision": "a81ce0072baeea8b198eb57971d4c00c"
   },
   {
-    "url": "assets/js/11.1d9971b4.js",
-    "revision": "b019643a680f3e109fa32249c10f5754"
+    "url": "assets/js/11.ed402ea8.js",
+    "revision": "31b2ffef356bb7c67b9ac88a42dbe2e7"
   },
   {
-    "url": "assets/js/12.e824b4a9.js",
-    "revision": "aa2a6c8d36a7be9d4b6b9733f59b3d4f"
+    "url": "assets/js/12.ea2305de.js",
+    "revision": "701d399a64bea375587fc5ccc0c4f412"
   },
   {
     "url": "assets/js/13.562f5509.js",
@@ -110,8 +110,8 @@ self.__precacheManifest = [
     "revision": "930de6ae55bcffe27d0aa20727f9f2a6"
   },
   {
-    "url": "assets/js/app.8e09b917.js",
-    "revision": "4ec5e2cedfccfb89d165d3b6d82b505a"
+    "url": "assets/js/app.c8569716.js",
+    "revision": "dd2eccfa96d406e5d0ac9aa3a5f600c6"
   },
   {
     "url": "avatar.png",
@@ -119,43 +119,43 @@ self.__precacheManifest = [
   },
   {
     "url": "blogs/javascript/js-base/gulp-test.html",
-    "revision": "cd5b96c989e05fb05eac251f86a3a01c"
+    "revision": "9e98adb22ba80c80669970b04124732d"
   },
   {
     "url": "blogs/javascript/js-base/scenario.html",
-    "revision": "4c8aa35e126370d9ba9424908083237e"
+    "revision": "0f48c8c44142cbf0e226e6aa07f16583"
   },
   {
     "url": "blogs/javascript/js-base/snippets.html",
-    "revision": "e5f6a0304e6c378096a00b18b6374db3"
+    "revision": "a856c79c9f68aa3a996ccdb111356c91"
   },
   {
     "url": "blogs/javascript/js-base/webpack-register-vue-component.html",
-    "revision": "fc4ca707664982290fb5f67728f3f54f"
+    "revision": "b8926d9e664b6c3a7a224279ca7fb760"
   },
   {
     "url": "blogs/javascript/js-typescript/ts-base1.html",
-    "revision": "6169d34776064b32a0c1c45ee0a83e58"
+    "revision": "41cd9004e1998ea2dbdb256e1acb2297"
   },
   {
     "url": "blogs/others/env-config/repos-manage.html",
-    "revision": "c1f34d8b46a48c66b1fc019200ecf620"
+    "revision": "7b5c4f12d24ff980294850cdb23432c0"
   },
   {
     "url": "blogs/others/rules-good-practice/airbng-guide.html",
-    "revision": "e52b372f3e992fd11363232a79acda0f"
+    "revision": "56addc198579a7890b2fabece201f908"
   },
   {
     "url": "categories/index.html",
-    "revision": "53a284a37ce87488788c3a8abdb8a4a7"
+    "revision": "5f764bbc44cf77848f2f42c3f336c72c"
   },
   {
     "url": "categories/JavaScript/index.html",
-    "revision": "1460c61401791ce226c396929f43fd6b"
+    "revision": "1a42b51126a30f84f08d09a95bf3e2c9"
   },
   {
     "url": "categories/Others/index.html",
-    "revision": "194c5cee22e3606c7922ad492c8f06bd"
+    "revision": "41d9cb8d98291b5be439b8aa9305562c"
   },
   {
     "url": "hero.png",
@@ -163,7 +163,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "84715ccaae112cf6137736a076ce37ca"
+    "revision": "7069ab3bfe635420b209960d21e1e0ae"
   },
   {
     "url": "js/mouse-click-animate.js",
@@ -175,27 +175,27 @@ self.__precacheManifest = [
   },
   {
     "url": "tag/Cli/index.html",
-    "revision": "3c1403284fcec6a1ec06c6d010fa1cdd"
+    "revision": "1c3395febb47f4f8934ebeabf1fbac5e"
   },
   {
     "url": "tag/index.html",
-    "revision": "2a10b903c08e0231c09b9222d3bd2548"
+    "revision": "efdb012400cd0f737178aae1c272d12d"
   },
   {
     "url": "tag/JavaScript/index.html",
-    "revision": "5e6d44508419955e2ed7927a70691f88"
+    "revision": "be4305ed6df8b455f90fd44f3aa83eef"
   },
   {
     "url": "tag/代码规范/index.html",
-    "revision": "90b805e2ba8175c7258167ba959bc12e"
+    "revision": "ccaede7e4864706f6f78ddfe25a612a0"
   },
   {
     "url": "tag/开发环境配置/index.html",
-    "revision": "131b21bbc24960de0c0c6a00f432346f"
+    "revision": "ce8c375ee0895ac1efb6e7efebe88beb"
   },
   {
     "url": "timeline/index.html",
-    "revision": "149fda057e02ecae60e66bfd71fbc78b"
+    "revision": "19cf3a4a5ddbd3289fb4affe29065cfb"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});

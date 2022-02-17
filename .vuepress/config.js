@@ -10,7 +10,7 @@ module.exports = {
       'link',
       {
         rel: 'icon',
-        href: '/docs/favicon.ico',
+        href: '/favicon.ico',
       },
     ],
     [
@@ -26,7 +26,7 @@ module.exports = {
       {
         language: 'javascript',
         type: 'text/javascript',
-        src: '/docs/js/mouse-click-animate.js',
+        src: '/js/mouse-click-animate.js',
       },
     ],
   ],
@@ -78,12 +78,12 @@ module.exports = {
         link: 'https://vuepress-theme-reco.recoluan.com',
       },
     ],
-    logo: '/docs/avatar.png',
+    logo: '/avatar.png',
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: 'Last Updated',
     author: 'scottt',
-    authorAvatar: '/docs/avatar.png',
+    authorAvatar: '/avatar.png',
     record: 'xc_111',
     startYear: '2019',
   },

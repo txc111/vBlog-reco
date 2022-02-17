@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vuepress dev . --host \"localhost\"",
     "build": "vuepress build .",
-    "deploy": "npm run build && bash deploy.sh"
+    "deploy": "npm run build && git add . && git commit -m 'deploy' && git push"
   },
   "devDependencies": {
     "@vuepress/plugin-pwa": "^1.8.2",

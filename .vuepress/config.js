@@ -4,13 +4,13 @@ module.exports = {
   title: '小霸王',
   description: 'LEARNING MACHINE',
   dest: 'docs',
-  base: '/docs',
+  base: '/docs/',
   head: [
     [
       'link',
       {
         rel: 'icon',
-        href: '/favicon.ico',
+        href: '/docs/favicon.ico',
       },
     ],
     [
@@ -26,7 +26,7 @@ module.exports = {
       {
         language: 'javascript',
         type: 'text/javascript',
-        src: '/js/mouse-click-animate.js',
+        src: '/docs/js/mouse-click-animate.js',
       },
     ],
   ],
@@ -78,12 +78,12 @@ module.exports = {
         link: 'https://vuepress-theme-reco.recoluan.com',
       },
     ],
-    logo: '/avatar.png',
+    logo: '/docs/avatar.png',
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: 'Last Updated',
     author: 'scottt',
-    authorAvatar: '/avatar.png',
+    authorAvatar: '/docs/avatar.png',
     record: 'xc_111',
     startYear: '2019',
   },

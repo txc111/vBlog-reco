@@ -3,7 +3,7 @@ const sidebar = require('./siderbar.js');
 module.exports = {
   title: '小霸王',
   description: 'LEARNING MACHINE',
-  dest: 'public',
+  dest: 'docs',
   base: '/',
   head: [
     [

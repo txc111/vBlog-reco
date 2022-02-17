@@ -4,7 +4,7 @@ module.exports = {
   title: '小霸王',
   description: 'LEARNING MACHINE',
   dest: 'docs',
-  base: '/',
+  base: '/docs',
   head: [
     [
       'link',

@@ -93,7 +93,7 @@ Host gitee.com
 ---
 
 <p align="center">
-    <img src="/avatar.png"  width="800" height="526">
+    <img src="/vBlog-reco/avatar.png"  width="800" height="526">
     <p align="center">
         <em>Gunners</em>
     </p>

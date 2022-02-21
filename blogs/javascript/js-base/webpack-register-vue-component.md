@@ -1,6 +1,6 @@
 ---
 title: webpack自动添加和注册全局vue组件
-date: 2019-04-10
+date: 2019-04-22
 categories:
   - JavaScript
 tags:

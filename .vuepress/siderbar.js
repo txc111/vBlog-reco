@@ -1,8 +1,8 @@
 const { generateSideBarConfig } = require('./utils');
 const JAVASCRIPT_PATH = '/blogs/javascript';
-// const PERFORM_PATH = '/blogs/perform';
-// const CSS_PATH = '/blogs/css';
+const PERFORM_PATH = '/blogs/perform';
 const OTHERS_PATH = '/blogs/others';
+// const CSS_PATH = '/blogs/css';
 
 module.exports = {
   [JAVASCRIPT_PATH]: [
@@ -15,4 +15,5 @@ module.exports = {
     generateSideBarConfig('环境配置', OTHERS_PATH + '/env-config'),
     generateSideBarConfig('环境配置', OTHERS_PATH + '/rules-good-practice'),
   ],
+  [PERFORM_PATH]:[generateSideBarConfig('性能优化', PERFORM_PATH)]
 };

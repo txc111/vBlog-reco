@@ -1,6 +1,6 @@
 ---
 title: Typescript 不熟悉的点和易错点
-date: 2019-04-11
+date: 2021-04-11
 categories:
   - JavaScript
 tags:
